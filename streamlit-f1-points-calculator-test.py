@@ -95,7 +95,7 @@ for race in races:
 
     # Display updated points after each race except Abu Dhabi
     if race != "Abu Dhabi GP":
-        st.write(f"**After the {race}:**")
+        st.write(f"**Points after {race}:**")
         st.write(f"Max Verstappen: {current_max_points} points")
         st.write(f"Lando Norris: {current_lando_points} points")
 
