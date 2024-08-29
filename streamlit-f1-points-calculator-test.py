@@ -106,11 +106,11 @@ st.write(f"Lando Norris: {current_lando_points} points")
 
 # Determine who is leading
 if current_max_points > current_lando_points:
-    st.success("Max Verstappen is leading the championship!")
+    st.success("Max Verstappen is leading the F1 Championship!")
 elif current_lando_points > current_max_points:
-    st.success("Lando Norris is leading the championship!")
+    st.success("Lando Norris is leading the F1 Championship!")
 else:
-    st.info("The championship is tied!")
+    st.info("The F1 Championship is tied!")
 
 
 
